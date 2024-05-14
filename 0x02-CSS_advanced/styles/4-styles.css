@@ -1,0 +1,43 @@
+/* Define custom properties on the root element */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Set the text color and font family for the body */
+body {
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+}
+
+/* Set the text color for all anchor elements */
+a {
+    color: var(--text-color);
+}
+
+/* Set display to none for elements with the class visually-hidden */
+.visually-hidden {
+    display: none;
+}
+
+/* Set the foreground color for elements with the class card-category */
+.card-category {
+    color: var(--color-primary);
+}
+
+/* Set the foreground color for elements with the class section-tagline */
+.section-tagline {
+    color: var(--color-primary);
+}
+
+/* Set the font family for all section headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
+
